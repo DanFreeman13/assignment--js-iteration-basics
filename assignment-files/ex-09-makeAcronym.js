@@ -12,14 +12,14 @@ function makeAcronym (strinput) {
   var array = strinput.toUpperCase();  
 	var newArray = array[0];
 	var character = "";
-	var caplet = "";
+	//var caplet = "";
 
 	for (var i=1; i<array.length; i++) {
 		character = array[i];
 
 		if (character === " "){
 			var letter= array[i+1];
-			caplet = letter.toUpperCase();
+			//caplet = letter.toUpperCase();
 
 			newArray += letter;
 
